@@ -1,0 +1,108 @@
+{
+  "processes": [
+    {
+      "id": "100000",
+      "name": "Apply label",
+      "type": "Hauptprozess",
+      "merkmalsklassen": ["Applying"],
+      "randbedingungen": ["Vollautomatisierung", "Etikettgröße 50x30"],
+      "partialProcesses": ["100001", "100002", "100003"],
+      "ablageort": {
+        "konstruktiv": ["3040983", "3040988"],
+        "steuerungstechnisch": "V:\\BMB\\Team\\VORR\\1040855 - FRED 3038260\\ST\\SPS (TIA)\\FRED"
+      }
+    },
+    {
+      "id": "100001",
+      "name": "Print and prepare label",
+      "type": "Teilprozess",
+      "merkmalsklassen": ["Printing", "Preparing"],
+      "buildingBlocks": ["200027", "200025", "200028"]
+    },
+    {
+      "id": "100002",
+      "name": "Pick up and manipulate label",
+      "type": "Teilprozess",
+      "merkmalsklassen": ["Manipulating"],
+      "buildingBlocks": ["200000", "200021"]
+    },
+    {
+      "id": "100003",
+      "name": "Determine offset",
+      "type": "Teilprozess",
+      "merkmalsklassen": ["Positioning"],
+      "buildingBlocks": ["200026", "200013"]
+    }
+  ],
+  "buildingBlocks": [
+    {
+      "id": "200000",
+      "name": "KR 6 R900-2",
+      "category": "Robot",
+      "hersteller": "KUKA",
+      "eigenschaften": { "Traglast": "6.00", "Reichweite": "900", "Eigengewicht": "55" },
+      "ablageort": "V:\\BMB\\Team\\ST\\WSCAD Electrix Rocket\\Libraries\\KUKA\\KR6"
+    },
+    {
+      "id": "200021",
+      "name": "Kuka Fkt - Etikett aufnehmen",
+      "category": "Robot Function",
+      "hersteller": "KUKA",
+      "eigenschaften": { "Funktion": "Greifen/Abnehmen" },
+      "ablageort": "V:\\BMB\\Team\\ST\\KUKA\\Funktionen\\EtikettAufnehmen"
+    },
+    {
+      "id": "200026",
+      "name": "SENSOPART Kamera",
+      "category": "Camera",
+      "hersteller": "SENSOPART",
+      "eigenschaften": { "Auflösung": "5MP" },
+      "ablageort": "V:\\BMB\\Team\\ST\\Kameras\\SensoPart"
+    },
+    {
+      "id": "200027",
+      "name": "TOPEX Drucker",
+      "category": "Label Printer",
+      "hersteller": "TOPEX",
+      "eigenschaften": { "Typ": "TOPEX 7200/7250 ZEBRA-Treiber" },
+      "ablageort": "V:\\BMB\\Team\\ST\\WSCAD Electrix Rocket\\Libraries\\Topex"
+    },
+    {
+      "id": "200025",
+      "name": "SIEMENS CPU",
+      "category": "PLC",
+      "hersteller": "SIEMENS",
+      "eigenschaften": { "Serie": "S7-1500" },
+      "ablageort": "V:\\BMB\\Team\\ST\\SPS\\Siemens\\S7-1500"
+    },
+    {
+      "id": "200028",
+      "name": "NL Config NiceLabel",
+      "category": "Software",
+      "hersteller": "NiceLabel",
+      "eigenschaften": { "Lizenz": "Single-Workstation" },
+      "ablageort": "V:\\BMB\\Team\\SW\\NiceLabel"
+    },
+    {
+      "id": "200013",
+      "name": "Job Etikett-versetzen",
+      "category": "Vision Job",
+      "hersteller": "SENSOPART",
+      "eigenschaften": { "Funktion": "Versatzberechnung" },
+      "ablageort": "V:\\BMB\\Team\\Vision\\Jobs\\EtikettVersetzen"
+    }
+  ],
+  "links": [
+    { "from": "100000", "to": "100001", "type": "contains" },
+    { "from": "100000", "to": "100002", "type": "contains" },
+    { "from": "100000", "to": "100003", "type": "contains" },
+    { "from": "100001", "to": "200027", "type": "uses" },
+    { "from": "100001", "to": "200025", "type": "uses" },
+    { "from": "100001", "to": "200028", "type": "uses" },
+    { "from": "100002", "to": "200000", "type": "uses" },
+    { "from": "100002", "to": "200021", "type": "uses" },
+    { "from": "100003", "to": "200026", "type": "uses" },
+    { "from": "100003", "to": "200013", "type": "uses" }
+  ]
+}
+
