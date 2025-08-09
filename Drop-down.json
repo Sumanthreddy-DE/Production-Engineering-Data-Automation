@@ -1,0 +1,292 @@
+[
+  {
+    "Prozessart": "",
+    "": "-",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "-",
+    "Hersteller": "",
+    "Eigenschaft 1": "-",
+    "Eigenschaft  2": "-",
+    "Eigenschaft 3": "-"
+  },
+  {
+    "Prozessart": "",
+    "": "Roboter",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "KUKA",
+    "Hersteller": "",
+    "Eigenschaft 1": "Roboter",
+    "Eigenschaft  2": "Traglast [kg]",
+    "Eigenschaft 3": "Reichweite [mm]"
+  },
+  {
+    "Prozessart": "",
+    "": "2D-Kamerasystem",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "FANUC",
+    "Hersteller": "",
+    "Eigenschaft 1": "Roboterequipment (KUKA)",
+    "Eigenschaft  2": "Länge [m]",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "3D-Kamerasystem",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "STÄUBLI",
+    "Hersteller": "",
+    "Eigenschaft 1": "SPS-Baustein (SIEMENS)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Version"
+  },
+  {
+    "Prozessart": "",
+    "": "Zylinder",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "SENSOPART",
+    "Hersteller": "",
+    "Eigenschaft 1": "Jobsatz (SensoPart)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Version"
+  },
+  {
+    "Prozessart": "",
+    "": "Achse",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "DI-SORIC",
+    "Hersteller": "",
+    "Eigenschaft 1": "Job (SensoPart)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Version"
+  },
+  {
+    "Prozessart": "",
+    "": "Optischer Sensor",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "SICK",
+    "Hersteller": "",
+    "Eigenschaft 1": "Jobsatz (Keyence)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Version"
+  },
+  {
+    "Prozessart": "",
+    "": "Robotersoftware (KUKA)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "IFM",
+    "Hersteller": "",
+    "Eigenschaft 1": "Job (Keyence)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Version"
+  },
+  {
+    "Prozessart": "",
+    "": "Roboterprogramm (KUKA)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "SIEMENS",
+    "Hersteller": "",
+    "Eigenschaft 1": "Roboterprogramm (KUKA)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Software"
+  },
+  {
+    "Prozessart": "",
+    "": "Roboterequipment (KUKA)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "TOPEX",
+    "Hersteller": "",
+    "Eigenschaft 1": "Roboterdokumente (KUKA)",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Auflösung"
+  },
+  {
+    "Prozessart": "",
+    "": "Roboterdokumente (KUKA)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "DEHN",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "Umfang",
+    "Eigenschaft 3": "Anwendung"
+  },
+  {
+    "Prozessart": "",
+    "": "SPS-Baustein (SIEMENS)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "DEHN - ST",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "Protokoll",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Jobsatz (SensoPart)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "DEHN - PT",
+    "Hersteller": "",
+    "Eigenschaft 1": "NL Konfig",
+    "Eigenschaft  2": "Ansprechpartner",
+    "Eigenschaft 3": "Treiberversion"
+  },
+  {
+    "Prozessart": "",
+    "": "Job (SensoPart)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "Universal Robots",
+    "Hersteller": "",
+    "Eigenschaft 1": "Optischer Sensor",
+    "Eigenschaft  2": "Reichweite",
+    "Eigenschaft 3": "Anschluss"
+  },
+  {
+    "Prozessart": "",
+    "": "Jobsatz (Keyence)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "DEHN - REZ",
+    "Hersteller": "",
+    "Eigenschaft 1": "Mechanische Anbindung",
+    "Eigenschaft  2": "Lage",
+    "Eigenschaft 3": "Ausrichtung"
+  },
+  {
+    "Prozessart": "",
+    "": "Job (Keyence)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "Pneumatiksystem",
+    "Eigenschaft  2": "Art",
+    "Eigenschaft 3": "Befestigung"
+  },
+  {
+    "Prozessart": "",
+    "": "Prüfsystem",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "Greifer/Sauger",
+    "Eigenschaft  2": "Werkstück",
+    "Eigenschaft 3": "Robotertyp"
+  },
+  {
+    "Prozessart": "",
+    "": "Hardware SPS",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Vision Sensoren",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Etikettendrucker",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Schnittstelle",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "NiceLabel",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Job (UR)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "SPS-Datentyp (SIEMENS)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Makro(UR)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "SPS-Datenbaustein (SIEMENS)",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Mechanische Anbindung",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Pneumatiksystem",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  },
+  {
+    "Prozessart": "",
+    "": "Greifer/Sauger",
+    "Merkmalsklassen": "",
+    "Bauteilkategorie": "",
+    "Hersteller": "",
+    "Eigenschaft 1": "",
+    "Eigenschaft  2": "",
+    "Eigenschaft 3": ""
+  }
+]
